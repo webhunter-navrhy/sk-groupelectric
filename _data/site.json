@@ -1,0 +1,53 @@
+{
+  "slug": "sk-groupelectric",
+  "nazev": "Group Electric s.r.o.",
+  "url": "https://webhunter-navrhy.github.io/sk-groupelectric/",
+  "base": "/sk-groupelectric/",
+  "lang": "sk",
+  "popis": "Pozáručný servis autoelektroniky a spotrebnej elektroniky v Košiciach: prístrojovky, ABS, riadiace jednotky, navigácie, rádiá. Od roku 2002.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "renault.jpg",
+  "logo": "",
+  "theme_color": "#111315",
+  "typ": "AutoRepair",
+  "ico": "46000828",
+  "kontakt": {
+    "email": "servis@groupelectric.sk",
+    "telefon": "0918 277 366",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Košice",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [
+    "Mo-Th 09:00-16:00"
+  ],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Správa z webu groupelectric.sk"
+  },
+  "nav": [
+    {
+      "text": "Služby",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Postup",
+      "href": "#postup"
+    },
+    {
+      "text": "O nás",
+      "href": "#o-nas"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "nazev": "Prístrojovky",
+    "popis": "Oprava a diagnostika prístrojových dosiek pre väčšinu značiek, od Škody a VW po BMW, Mercedes či Land Rover."
+  },
+  {
+    "nazev": "Riadiace jednotky",
+    "popis": "Diagnostika a oprava elektronických riadiacich jednotiek: komfortné moduly, BSI, CEM, motorové a prevodové jednotky."
+  },
+  {
+    "nazev": "ABS, čerpadlá, brzdy",
+    "popis": "Opravy ABS jednotiek, čerpadiel ABS, elektronických ručných brzdy a posilňovačov riadenia."
+  },
+  {
+    "nazev": "Multimédia a navigácie",
+    "popis": "Servis originálnych rádií, navigácií, CD meničov, zosilňovačov a displejov, aj pre nákladné vozidlá."
+  },
+  {
+    "nazev": "Svetlomety a Xenon",
+    "popis": "Opravy Xenon modulov, adaptívneho natáčania svetiel a svetelných jednotiek."
+  },
+  {
+    "nazev": "Spotrebná elektronika",
+    "popis": "Pozáručný servis bielej techniky, domácich spotrebičov a svetelnej i zvukovej techniky."
+  }
+]

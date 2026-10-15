@@ -1,0 +1,49 @@
+{% extends "_base.html" %}
+{% set titulek = 'Group Electric Košice – servis autoelektroniky a spotrebnej elektroniky' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-g">
+    <div>
+      <p class="stitok">Pozáručný servis od roku 2002</p>
+      <h1>Opravíme elektroniku vo Vašom aute aj doma</h1>
+      <p class="uvod">Prístrojovky, riadiace jednotky, ABS, navigácie a rádiá. Aj spotrebiče a svetelná či zvuková technika. Posielate nám diel, my ho diagnostikujeme a opravíme.</p>
+      <p class="tl"><a class="tlacidlo" href="#kontakt">Napísať nám</a> <a class="tlacidlo druhe" href="#sluzby">Čo opravujeme</a></p>
+    </div>
+    {{ img('renault.jpg', 'Oprava riadiacej jednotky Renault v servise Group Electric', sizes='(min-width: 60rem) 34rem, 100vw') }}
+  </div>
+</section>
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <h2>Čo opravujeme</h2>
+    <ul class="karty" role="list">
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+    <p class="poznamka">Nenašli ste svoj diel alebo značku? Napíšte nám, čo potrebujete opraviť.</p>
+  </div>
+</section>
+<section class="sekce tmava" id="postup">
+  <div class="wrap">
+    <h2>Mobilný servis</h2>
+    <p class="uvod">K pôvodnému servisnému stredisku pribudla služba Mobilný servis. Vaše zariadenie alebo diel Vám vieme opraviť aj bez návštevy dielne: napíšte nám, čo sa pokazilo, a dohodneme ďalší postup.</p>
+  </div>
+</section>
+<section class="sekce" id="o-nas">
+  <div class="wrap uzky">
+    <h2>O nás</h2>
+    <p>Group Electric s.r.o. vznikla v roku 2002 ako malé servisné stredisko. Postupne sme prijímali ďalších technikov a dnes sa sústredíme na pozáručný servis automobilovej a spotrebnej elektroniky.</p>
+    <p>Hľadáme aj kolegov: elektrotechnik, opravár spotrebnej elektroniky alebo servisný technik s praxou v mikrospájkovaní. Životopis pošlite na <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>.</p>
+  </div>
+</section>
+<section class="sekce svetla" id="kontakt">
+  <div class="wrap kontakt-g">
+    <div>
+      <h2>Kontakt</h2>
+      <p><strong>{{ site.nazev }}</strong>, Košice<br>IČO {{ site.ico }}</p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+      <p>Pracovná doba<br>Pondelok – štvrtok: 9:00 – 16:00<br>Piatok: zatvorené</p>
+    </div>
+    <div>{% include "_formular.html" %}</div>
+  </div>
+</section>
+{% endblock %}
